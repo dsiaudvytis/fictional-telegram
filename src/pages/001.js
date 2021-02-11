@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './001.module.css';
 
 const Dot = ({ selected = false }) => selected ? (
-  <div className={styles.dot} />
+  <div className={styles.greenBorder} >
+    <div className={styles.greenDot} />
+  </div>
 ) : (
-    <div className={styles.greenBorder} >
-      <div className={styles.greenDot} />
-    </div>
-  );
+  <div className={styles.dot} />
+);
 
 export default () => (
   <div className={styles.container}>
