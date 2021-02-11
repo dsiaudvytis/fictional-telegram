@@ -1,0 +1,136 @@
+body {
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 80px auto 100px;
+  grid-template-areas:
+      "header"
+      "mid"
+      "footer";
+  background-color: rgb(150, 169, 177);
+  width: 372px;
+  height: 867px;
+  border-radius: 35px;
+  padding: 37px 33px 55px 33px;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid {
+  grid-area: mid;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  grid-row: footer;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-image: url('../images/borobudur.jpg');
+  width: 318px;
+  height: 632px;
+  background-size: 299%;
+  background-position-x: -359px;
+  border-radius: 35px;
+}
+
+.rating {
+  position: relative;
+  background-color: rgba(255,255,255,0.2);
+  display: inline;
+  top: 39px;
+  padding: 5px 16px 5px 11px;
+  margin-left: 34px;
+  font-family: Verdana;
+  font-size: 17px;
+  border-radius: 7px;
+}
+
+.outOf {
+  display: inline;
+  font-size: 11px;
+}
+
+.discover{
+  position: relative;
+  top: 373px;
+  font-family: Verdana;
+  font-size: 15px;
+  margin-left: 29px;
+  width: 73px;
+  background-color: rgba(0,0,0,0.1);
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.title {
+  font-family: Verdana;
+  font-size: 33px;
+  font-weight: 700;
+  padding: 0 33px;
+  position: relative;
+  top: 376px;
+}
+
+.button {
+  width: 30px;
+  height: 30px;
+  background-color: crimson;
+}
+
+.backButton {
+  font-size: 43px;
+  font-family: 'Poppins';
+}
+
+.settingsButton {
+  font-family: sans-serif;
+  font-size: 35px;
+  margin: 11px 3px;
+}
+
+.footer .button {
+  margin: 0 15px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 436px;
+}
+
+.dot {
+  margin: 7px;
+  height: 3px;
+  width: 3px;
+  background-color: white;
+  display: inline;
+  border-radius: 100%;
+}
+
+.greenDot {
+  background-color: #8ad0ae;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  padding: 3px;
+  margin: 4px 0 0 4px;
+}
+
+.greenBorder {
+  border: 1px solid #8ad0ae;
+  border-radius: 100%;
+  height: 19px;
+  width: 19px;
+  margin: 0 5px;
+}
