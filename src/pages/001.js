@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './001.module.css';
 
+// Perfect Pixel: -1059, -129, 1.0
+
 const Dot = ({ selected = false }) => selected ? (
   <div className={styles.greenBorder} >
     <div className={styles.greenDot} />
@@ -32,9 +34,13 @@ export default () => (
       </div>
     </div>
     <div className={styles.footer}>
-      <div className={styles.button}></div>
-      <div className={styles.button}></div>
-      <div className={styles.button}></div>
+      <div className={styles.gridButton} />
+      <div className={styles.goContainer}>
+        <div className={styles.goButton}>
+          <div className={styles.arrowContainer}>→</div>
+        </div>
+      </div>
+      <div className={styles.bookmarkButton} />
     </div>
   </div>
 );

@@ -4,16 +4,16 @@ body {
 
 .container {
   display: grid;
-  grid-template-rows: 80px auto 100px;
+  grid-template-rows: 80px auto 130px;
   grid-template-areas:
       "header"
       "mid"
       "footer";
   background-color: rgb(150, 169, 177);
   width: 372px;
-  height: 867px;
+  height: 884px;
   border-radius: 35px;
-  padding: 37px 33px 55px 33px;
+  padding: 37px 33px 25px 33px;
 }
 
 .header {
@@ -81,12 +81,6 @@ body {
   top: 376px;
 }
 
-.button {
-  width: 30px;
-  height: 30px;
-  background-color: crimson;
-}
-
 .backButton {
   font-size: 43px;
   font-family: 'Poppins';
@@ -110,9 +104,9 @@ body {
 }
 
 .dot {
-  margin: 7px;
-  height: 3px;
-  width: 3px;
+  margin: 8px 8px 7px 6px;
+  height: 4px;
+  width: 4px;
   background-color: white;
   display: inline;
   border-radius: 100%;
@@ -133,4 +127,39 @@ body {
   height: 19px;
   width: 19px;
   margin: 0 5px;
+}
+
+.gridButton {
+  width: 30px;
+  height: 30px;
+  background-color: crimson;
+  margin: 40px 20px 0;
+}
+
+.goContainer {
+  height: 103px;
+  width: 102px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 33px;
+  margin: 5px 20px 0;
+  border: 1px solid #8ad0ae;
+}
+.goButton {
+  background-color: #8ad0ae;
+  border-radius: 24px;
+  width: 76px;
+  height: 75px;
+  margin: 14px 0 0 12px;
+}
+.arrowContainer {
+  margin: 20px 0 0 24px;
+  font-size: 27px;
+  display: inline-block;
+}
+
+.bookmarkButton {
+  width: 30px;
+  height: 30px;
+  background-color: crimson;
+  margin: 40px 20px 0;
 }
