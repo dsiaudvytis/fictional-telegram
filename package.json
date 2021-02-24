@@ -9,9 +9,9 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop --port 8001",
+    "start": "gatsby develop --port 8372",
     "build": "gatsby build",
-    "serve": "gatsby serve --port 8001",
+    "serve": "gatsby serve --port 8372",
     "clean": "gatsby clean"
   },
   "dependencies": {
