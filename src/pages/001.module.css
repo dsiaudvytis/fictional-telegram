@@ -132,8 +132,11 @@ body {
 .gridButton {
   width: 30px;
   height: 30px;
-  background-color: crimson;
   margin: 40px 20px 0;
+}
+
+.gridButton svg {
+  fill: #72858c;
 }
 
 .goContainer {
@@ -158,8 +161,10 @@ body {
 }
 
 .bookmarkButton {
-  width: 30px;
-  height: 30px;
-  background-color: crimson;
   margin: 40px 20px 0;
+}
+.bookmarkButton svg {
+  height: 25px;
+  width: 25px;
+  fill: #72858c;
 }
