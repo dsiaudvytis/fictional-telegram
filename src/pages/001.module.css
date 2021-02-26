@@ -14,6 +14,8 @@ body {
   height: 884px;
   border-radius: 35px;
   padding: 37px 33px 25px 33px;
+  position: relative;
+  overflow: hidden;
 }
 
 .header {
@@ -41,6 +43,16 @@ body {
   background-size: 299%;
   background-position-x: -359px;
   border-radius: 35px;
+}
+.leftCard {
+  background-image: url('../images/left.jpg');
+  position: absolute;
+  transform: translate(-319px, -7px) rotate(-3deg) scale(0.78);
+}
+.rightCard {
+  background-image: url('../images/right.jpg');
+  position: absolute;
+  transform: translate(318px) rotate(3deg) scale(0.78);
 }
 
 .rating {

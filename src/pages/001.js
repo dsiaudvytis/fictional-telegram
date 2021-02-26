@@ -47,6 +47,8 @@ export default () => (
           ))}
         </div>
       </div>
+      <div className={`${styles.card} ${styles.leftCard}`} />
+      <div className={`${styles.card} ${styles.rightCard}`} />
     </div>
     <div className={styles.footer}>
       <div className={styles.gridButton}>
